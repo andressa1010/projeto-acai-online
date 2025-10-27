@@ -31,7 +31,7 @@ const Carrinho = () => {
     const mensagem = encodeURIComponent(
       `Olá! Gostaria de finalizar minha compra. O total deu R$ ${valorTotal.toFixed(2)}.`
     );
-    const numero = "5511986414262"; // DDI 55 + número
+    const numero = "5511986414262"; 
     window.open(`https://wa.me/${numero}?text=${mensagem}`, "_blank");
   };
 
