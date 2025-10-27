@@ -70,7 +70,7 @@ const Carrinho = () => {
           </BotaoWhatsApp>
           <BotaoVoltar
        onClick={() => navigate("/")}>
-            Voltar para Home
+            Voltar 
           </BotaoVoltar>
         </BotoesFinais>
       )}
